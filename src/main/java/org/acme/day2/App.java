@@ -13,7 +13,8 @@ public class App implements QuarkusApplication {
     @Override
     public int run(String... args) throws Exception {
         System.out.println("Running day 2");
-
+        log.info("day2 result q1\t{}", utils.countTrue());
+        log.info("day2 result q2\t{}", utils.countTrueNew());
         return 0;
     }
 }
